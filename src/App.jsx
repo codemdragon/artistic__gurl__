@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Hero from './components/Hero';
 import Gallery from './components/Gallery';
 import Reviews from './components/Reviews';
+import CustomOrder from './components/CustomOrder';
 import Admin from './pages/Admin';
 
 const Home = ({ data }) => {
@@ -19,6 +20,7 @@ const Home = ({ data }) => {
     <Layout data={data}>
       <Hero data={data} scrollToSection={scrollToSection} />
       <Gallery products={data?.products || []} />
+      <CustomOrder />
       <Reviews reviews={data?.reviews || []} />
     </Layout>
   );
