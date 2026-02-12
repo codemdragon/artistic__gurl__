@@ -1,0 +1,75 @@
+{
+  "siteConfig": {
+    "title": "Artistic Gurl",
+    "heroTitle": "Wrapping Your Feelings 🌸",
+    "heroSubtitle": "Handmade cards, painted memories, and heartfelt gifts created just for you.",
+    "announcement": "DELIVERY ALL OVER PAKISTAN 🇵🇰",
+    "aboutMe": "Wrapping your feelings since 2020. Handmade with Love, Customized for You.",
+    "instagram": "https://www.instagram.com/artistic__gurl__/",
+    "phone": "+92XXXXXXXXXX",
+    "email": "hello@artisticgurl.com"
+  },
+  "categories": ["All", "Love", "Birthday", "Anniversary", "General"],
+  "products": [
+    {
+      "id": 1,
+      "title": "The Google Card",
+      "category": "Birthday",
+      "price": "PKR 1200",
+      "icon": "Search",
+      "color": "bg-blue-50",
+      "desc": "What day is Feb 3? It's your birthday!",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "title": "Ghost Hug",
+      "category": "Love",
+      "price": "PKR 850",
+      "icon": "Smile",
+      "color": "bg-gray-50",
+      "desc": "You can't see it, but it's there.",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "title": "Missing Piece",
+      "category": "Love",
+      "price": "PKR 950",
+      "icon": "Heart",
+      "color": "bg-red-50",
+      "desc": "You complete me.",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "title": "Solar System",
+      "category": "Anniversary",
+      "price": "PKR 1500",
+      "icon": "Sun",
+      "color": "bg-yellow-50",
+      "desc": "I will love you as long as the sun burns.",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "title": "Tea Lover",
+      "category": "General",
+      "price": "PKR 800",
+      "icon": "Coffee",
+      "color": "bg-green-50",
+      "desc": "You are tea-riffic!",
+      "image": ""
+    },
+    {
+      "id": 6,
+      "title": "Red Phone",
+      "category": "Love",
+      "price": "PKR 1100",
+      "icon": "Phone",
+      "color": "bg-red-100",
+      "desc": "Call... you my husband.",
+      "image": ""
+    }
+  ]
+}
