@@ -30,7 +30,9 @@ const Hero = ({ data, scrollToSection }) => {
                             Shop Collections
                             <Gift className="w-5 h-5 group-hover:rotate-12 transition-transform" />
                         </button>
-                        <button className="px-8 py-4 bg-white text-gray-800 border-2 border-gray-800 font-bold rounded-lg paper-shadow transform hover:-translate-y-1 transition-transform flex items-center justify-center gap-2">
+                        <button
+                            onClick={() => scrollToSection('custom-order')}
+                            className="px-8 py-4 bg-white text-gray-800 border-2 border-gray-800 font-bold rounded-lg paper-shadow transform hover:-translate-y-1 transition-transform flex items-center justify-center gap-2">
                             Custom Order
                             <Palette className="w-5 h-5" />
                         </button>
