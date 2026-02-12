@@ -1,0 +1,89 @@
+{
+    "hero": {
+        "title": "Wrapping Your Feelings",
+        "subtitle": "Handmade cards, painted memories, and heartfelt gifts created just for you.",
+        "ticker": [
+            "Handmade with Love",
+            "Customized for You",
+            "Handmade with Love",
+            "Customized for You",
+            "Handmade with Love",
+            "Customized for You"
+        ]
+    },
+    "products": [
+        {
+            "id": 1,
+            "title": "The Google Card",
+            "category": "Birthday",
+            "price": "PKR 1200",
+            "icon": "Search",
+            "color": "bg-blue-50",
+            "desc": "What day is Feb 3? It's your birthday!"
+        },
+        {
+            "id": 2,
+            "title": "Ghost Hug",
+            "category": "Love",
+            "price": "PKR 850",
+            "icon": "Smile",
+            "color": "bg-gray-50",
+            "desc": "You can't see it, but it's there."
+        },
+        {
+            "id": 3,
+            "title": "Missing Piece",
+            "category": "Love",
+            "price": "PKR 950",
+            "icon": "Heart",
+            "color": "bg-red-50",
+            "desc": "You complete me."
+        },
+        {
+            "id": 4,
+            "title": "Solar System",
+            "category": "Anniversary",
+            "price": "PKR 1500",
+            "icon": "Sun",
+            "color": "bg-yellow-50",
+            "desc": "I will love you as long as the sun burns."
+        },
+        {
+            "id": 5,
+            "title": "Tea Lover",
+            "category": "General",
+            "price": "PKR 800",
+            "icon": "Coffee",
+            "color": "bg-green-50",
+            "desc": "You are tea-riffic!"
+        },
+        {
+            "id": 6,
+            "title": "Red Phone",
+            "category": "Love",
+            "price": "PKR 1100",
+            "icon": "Phone",
+            "color": "bg-red-100",
+            "desc": "Call... you my husband."
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "name": "Sarah K.",
+            "rating": 5,
+            "text": "The card was absolutely beautiful! My husband loved it."
+        },
+        {
+            "id": 2,
+            "name": "Ali R.",
+            "rating": 5,
+            "text": "Amazing attention to detail. Will order again!"
+        }
+    ],
+    "contact": {
+        "email": "hello@artisticgurl.com",
+        "phone": "+92 300 1234567",
+        "instagram": "https://www.instagram.com/artistic__gurl__/"
+    }
+}
