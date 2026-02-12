@@ -43,12 +43,17 @@ const Hero = ({ data, scrollToSection }) => {
             </header>
 
             {/* --- FEATURES SCROLL --- */}
-            <div className="bg-white border-y-2 border-dashed border-gray-300 py-6 overflow-hidden">
-                <div className="flex gap-8 whitespace-nowrap animate-marquee">
-                    {(data?.hero?.ticker || []).map((text, i) => (
-                        <span key={i} className="text-xl font-bold text-gray-400 flex items-center gap-2 handwritten">
-                            {i % 2 === 0 ? <Star className="fill-yellow-400 text-yellow-400" /> : <Heart className="fill-pink-400 text-pink-400" />} {text}
-                        </span>
+            <div className="bg-white border-y-2 border-dashed border-gray-300 py-6 overflow-hidden relative flex">
+                <div className="flex gap-8 whitespace-nowrap animate-marquee min-w-full">
+                    {/* Render ticker multiple times to ensure seamless loop */}
+                    {[...Array(4)].map((_, multiplier) => (
+                        <React.Fragment key={multiplier}>
+                            {(data?.hero?.ticker || []).map((text, i) => (
+                                <span key={`${multiplier}-${i}`} className="text-xl font-bold text-gray-400 flex items-center gap-2 handwritten">
+                                    {i % 2 === 0 ? <Star className="fill-yellow-400 text-yellow-400" /> : <Heart className="fill-pink-400 text-pink-400" />} {text}
+                                </span>
+                            ))}
+                        </React.Fragment>
                     ))}
                 </div>
             </div>
